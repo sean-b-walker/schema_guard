@@ -1,0 +1,14 @@
+{
+  "refund question": {
+    "input": "I was charged twice this month. Can you refund one payment?",
+    "expected": { "category": "billing" }
+  },
+  "can't sign in": {
+    "input": "I reset my password but still can't sign in.",
+    "expected": { "category": "account" }
+  },
+  "urgent outage": {
+    "input": "The app is down for everyone at our office and we have a deadline today.",
+    "expected": { "category": "technical", "priority": "urgent" }
+  }
+}
